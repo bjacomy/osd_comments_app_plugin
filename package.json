@@ -1,0 +1,22 @@
+{
+  "name": "opensearchdashboards-comments-app-plugin",
+  "version": "1.2.0",
+  "description": "An application plugin to add and manage comments to your Kibana dashboards",
+  "opensearchdashboards": {
+    "version": "1.2.0",
+    "templateVersion": "1.2.0"
+  },
+  "scripts": {
+    "osd": "node ../../scripts/osd",
+    "es": "node ../../scripts/es",
+    "build": "yarn plugin-helpers build",
+    "plugin-helpers": "node ../../scripts/plugin_helpers",
+    "lint": "../../node_modules/.bin/eslint .",
+    "start": "node ../../scripts/plugin_helpers start --oss --no-watch",
+    "test:server": "node ../../scripts/plugin_helpers test:server",
+    "test:browser": "node ../../scripts/plugin_helpers test:browser"
+  },
+  "dependencies": {
+    "axios": "^0.21.4"
+  }
+}
