@@ -1,5 +1,5 @@
+import { errors } from '@opensearch-project/opensearch';
 import { schema } from '@osd/config-schema';
-import { errors} from'@elastic/elasticsearch';
 import { IRouter } from '../../../../src/core/server';
 
 export function defineRoutesIndex(router: IRouter) {
