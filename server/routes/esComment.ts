@@ -1,5 +1,5 @@
-import { wrapError } from './wrapError'
-import Boom from 'boom'
+
+import Boom from '@hapi/boom'
 import { schema } from '@osd/config-schema';
 import { IRouter } from '../../../../src/core/server';
 
