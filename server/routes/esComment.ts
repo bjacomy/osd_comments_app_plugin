@@ -15,7 +15,7 @@ export function defineRoutesComment(router: IRouter) {
   router.get({
     path: '/api/opensearchdashboards-comments-plugin/comment',
     validate: {
-      body: schema.any(),
+      //body: schema.any(),
       params: schema.any(),
       query: schema.any(),
     }
